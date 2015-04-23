@@ -1,0 +1,2 @@
+# javaman
+my blog
