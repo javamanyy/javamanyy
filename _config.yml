@@ -1,5 +1,5 @@
 username: javamanyy
-baseurl: /blog
+baseurl: /javaman
 markdown: redcarpet
 safe: false
 pygments: true
