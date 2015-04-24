@@ -1,4 +1,5 @@
 username: javamanyy
+name: javaman
 baseurl: /javaman
 markdown: redcarpet
 safe: false
