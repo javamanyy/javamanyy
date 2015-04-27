@@ -1,0 +1,6 @@
+.menu_list{margin:10px auto;width:180px;}
+.menu_head{width:180px;height:30px;line-height:30px;padding-left:0px;font-size:14px;color:none;cursor:pointer;border:0px solid #e1e1e1;position:relative;font-weight:bold;background:none center right no-repeat;margin:0;}
+.menu_list .current{background:none center right no-repeat;}
+.menu_body{width:223px;height:auto;overflow:hidden;line-height:30px;border-left:0px solid #e1e1e1;backguound:none;border-right:0px solid #e1e1e1;}
+.menu_body a{display:block;width:223px;height:30px;line-height:30px;padding-left:28px;color:none;background:none;text-decoration:none;border-bottom:0px solid #e1e1e1;}
+.menu_body a:hover{text-decoration:none;}
