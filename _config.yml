@@ -5,3 +5,4 @@ markdown: redcarpet
 safe: false
 pygments: true
 title: JavaMan
+disqusname: javamanyy
