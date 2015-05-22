@@ -28,4 +28,10 @@
       <span id="social">联系我<a href="/about.html">留言</a>!</span>
     </p>
   </div>
+  
+  <section class="comments">
+        {% if page.comments %}
+          {% include comments.ext %}
+        {% endif %}
+      </section>
 </div>
