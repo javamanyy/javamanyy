@@ -13,9 +13,9 @@ categories: others
 注册disqus账号https://disqus.com 并登陆。<br/>
 点击右上角头像边上的settings按钮。弹出菜单选择'Add Disqus To site'<br/>
 打开Add Disqus to your site的页面： <br/>
-`Site Name `
+`Site Name `<br/>
 随便填一个名字就好了<br/>
-`Choose your unique Disqus URL`
+`Choose your unique Disqus URL`<br/>
 这里就是后面引用的名字啦。例如：javaman.disqus.com<br/>
 点击Finish就好。<br/>
 
@@ -44,10 +44,10 @@ categories: others
 ```
 
 ```javascript
-> <section class="comments">
->	{% if page.comments %}
->		{% include comments.ext %}
->	{% endif %}
-> </section>
+` <section class="comments">`
+`	{% if page.comments %}`
+`		{% include comments.ext %}`
+`	{% endif %}`
+` </section>`
 ```
 
