@@ -15,6 +15,13 @@
   <div class="post">
     {{ content }}
   </div>
+  
+  <section class="comments">
+    {% if page.comments %}
+      {% include comments.ext %}
+    {% endif %}
+  </section>
+      
   <div class="colophon">
     <p align="center">
       歪歪的个人BLOG<span class="separator">&bull;</span>
