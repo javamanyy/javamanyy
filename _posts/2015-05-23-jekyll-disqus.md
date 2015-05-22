@@ -12,14 +12,14 @@ categories: others
 ----------
 
 
-注册disqus账号https://disqus.com 并登陆。
-点击右上角头像边上的settings按钮。弹出菜单选择'Add Disqus To site'
-打开Add Disqus to your site的页面： 
-Site Name 
-随便填一个名字就好了
-Choose your unique Disqus URL
-这里就是后面引用的名字啦。例如：javaman.disqus.com
-点击Finish就好。
+注册disqus账号https://disqus.com 并登陆。 
+点击右上角头像边上的settings按钮。弹出菜单选择'Add Disqus To site' 
+打开Add Disqus to your site的页面：  
+Site Name  
+随便填一个名字就好了 
+Choose your unique Disqus URL 
+这里就是后面引用的名字啦。例如：javaman.disqus.com 
+点击Finish就好。 
 
 ----------
 
