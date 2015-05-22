@@ -3,7 +3,7 @@ layout: post
 title: Jekyll中添加评论系统
 cover: cover.jpg
 date:   2015-05-23 12:00:00
-categories: 其他
+categories: others
 ---
 
 
