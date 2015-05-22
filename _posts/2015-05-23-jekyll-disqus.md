@@ -7,6 +7,7 @@ categories: 其他
 ---
 
 
+
 创建Disqus账号
 ----------
 
@@ -29,19 +30,21 @@ Choose your unique Disqus URL
 - _config.yml中添加 disqussite: javaman
 
 - _includes目录下新建comments.ext文件
-		<i class="icon-file"></i>comments.ext
-```
-    <div id="disqus_thread"></div> 	 <script type="text/javascript">
-    	     var disqus_shortname = '{{site.disqussite}}';
-    	     (function() {
-    				 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    				 dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+```javascript
+<div id="disqus_thread"></div> 	 
+<script type="text/javascript">
+    var disqus_shortname = '{{site.disqussite}}';
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     				 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body'[0]).appendChild(dsq);
-    				 })(); 	 </script> 	 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    	    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</script> 	 
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 ```
 - 内容显示页面添加评论
-```
+```javascript
 <section class="comments">
 	{% if page.comments %}
 		{% include comments.ext %}
