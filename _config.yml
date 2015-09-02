@@ -1,7 +1,7 @@
 username: javamanyy
 name: javaman
-#baseurl: /javaman
-baseurl：/
+baseurl: /javaman
+#baseurl：/
 markdown: redcarpet
 safe: false
 pygments: true
